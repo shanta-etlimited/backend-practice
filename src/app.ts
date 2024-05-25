@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(cors());
 
 
-//application routes
+//application r  outes
 app.use("/api/v1/students", StudentRoutes)
 
 
